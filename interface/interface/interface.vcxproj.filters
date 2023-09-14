@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dia2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dia4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dia4_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dia5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dia6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dia11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dia12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dia12_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dia12_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dia13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dia14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dia15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="occview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CenterGroove.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SideGroove.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstSuppSprayMix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="mainwindow.qrc" />
+    <QtRcc Include="Resource.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Form files">
+      <UniqueIdentifier>{4b12b9fd-beec-4d84-9509-e1183c474292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{caf49c5b-d855-4fc3-888c-6000237a7047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{f112194d-6206-455e-b66c-94e737e2c3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bc58ef05-a150-49a6-b70f-793d70f758a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5b345b5a-7ef1-4be9-b4df-9ef93ca59d2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ziyuan\baocun.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ziyuan\dakai.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ziyuan\daochu.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ziyuan\dian.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ziyuan\fangxing.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ziyuan\quxian.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ziyuan\tubiao.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ziyuan\xinjian.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ziyuan\yuan.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ziyuan\zhixian.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="CenterGroove1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="CenterGroove2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="chuzhi.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="dialog.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="dia11.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="dia2.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="dia4.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="dia4_2.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="dia5.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="dia6.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="dia12.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="dia12_1.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="dia12_2.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="dia13.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="dia14.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="dia15.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="mainwindow.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="occview.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="CenterGroove.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="SideGroove.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="EC.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+    <QtUic Include="FirstSuppSprayMix.ui">
+      <Filter>Form files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="dia2.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dia4.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dia4_2.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dia5.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dia6.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dia11.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dia12.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dia12_1.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dia12_2.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dia13.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dia14.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dia15.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="occview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CenterGroove.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SideGroove.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="EC.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="FirstSuppSprayMix.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,55 @@
+﻿生成启动时间为 2023-09-14 16:59:30。
+     1>项目“C:\Users\Administrator\Desktop\interface\interface\interface.vcxproj”在节点 2 上(Build 个目标)。
+     1>项目“C:\Users\Administrator\Desktop\interface\interface\interface.vcxproj”(1)正在节点 2 上生成“C:\Users\Administrator\Desktop\interface\interface\interface.vcxproj”(1:2) (Build 个目标)。
+     1>ClCompile:
+         F:\vs2015\VC\bin\x86_amd64\CL.exe /c /Ix64\Debug\uic /Ix64\Debug\moc /I"F:\Opencascade\OpenCASCADE-7.6.0-vc14-64\opencascade-7.6.0\inc" /I"F:\Opencascade\OpenCASCADE-7.6.0-vc14-64\opencascade-7.6.0\win64\vc14\lib" /IF:\Qt\Qt5.13.0\5.13.0\msvc2015_64\include /IF:\Qt\Qt5.13.0\5.13.0\msvc2015_64\include\QtOpenGL /IF:\Qt\Qt5.13.0\5.13.0\msvc2015_64\include\QtWidgets /IF:\Qt\Qt5.13.0\5.13.0\msvc2015_64\include\QtGui /IF:\Qt\Qt5.13.0\5.13.0\msvc2015_64\include\QtANGLE /IF:\Qt\Qt5.13.0\5.13.0\msvc2015_64\include\QtCore /I\include /I"F:\Qt\Qt5.13.0\5.13.0\msvc2015_64\mkspecs\win32-msvc" /Ix64\Debug\moc /Ix64\Debug\uic /Zi /nologo /W1 /WX- /MP /Od /D _WINDOWS /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_DEPRECATED_WARNINGS /D WNT /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt mainwindow.cpp
+         mainwindow.cpp
+       Link:
+         F:\vs2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\interface\x64\Debug\interface.exe" /NOLOGO /LIBPATH:"F:\Opencascade\OpenCASCADE-7.6.0-vc14-64\opencascade-7.6.0\win64\vc14\lib" /LIBPATH:C:\openssl\lib /LIBPATH:C:\Utils\postgresql\pgsql\lib DRAWEXE.lib TKBin.lib TKBinL.lib TKBinTObj.lib TKBinXCAF.lib TKBO.lib TKBool.lib TKBRep.lib TKCAF.lib TKCDF.lib TKD3DHost.lib TKD3DHostTest.lib TKDCAF.lib TKDraw.lib TKernel.lib TKFeat.lib TKFillet.lib TKG2d.lib TKG3d.lib TKGeomAlgo.lib TKGeomBase.lib TKHLR.lib TKIGES.lib TKIVtk.lib TKIVtkDraw.lib TKLCAF.lib TKMath.lib TKMesh.lib TKMeshVS.lib TKOffset.lib TKOpenGl.lib TKOpenGlTest.lib TKPrim.lib TKQADraw.lib TKRWMesh.lib TKService.lib TKShHealing.lib TKStd.lib TKStdL.lib TKSTEP.lib TKSTEP209.lib TKSTEPAttr.lib TKSTEPBase.lib TKSTL.lib TKTObj.lib TKTObjDRAW.lib TKTopAlgo.lib TKTopTest.lib TKV3d.lib TKVCAF.lib TKViewerTest.lib TKVRML.lib TKXCAF.lib TKXDEDRAW.lib TKXDEIGES.lib TKXDESTEP.lib TKXMesh.lib TKXml.lib TKXmlL.lib TKXmlTObj.lib TKXmlXCAF.lib TKXSBase.lib TKXSDRAW.lib F:\Qt\Qt5.13.0\5.13.0\msvc2015_64\lib\Qt5OpenGLd.lib F:\Qt\Qt5.13.0\5.13.0\msvc2015_64\lib\Qt5Widgetsd.lib F:\Qt\Qt5.13.0\5.13.0\msvc2015_64\lib\Qt5Guid.lib F:\Qt\Qt5.13.0\5.13.0\msvc2015_64\lib\Qt5Cored.lib F:\Qt\Qt5.13.0\5.13.0\msvc2015_64\lib\qtmaind.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Administrator\Desktop\interface\x64\Debug\interface.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\interface\x64\Debug\interface.lib" /MACHINE:X64 x64\Debug\EC.obj
+         x64\Debug\FirstSuppSprayMix.obj
+         x64\Debug\mainwindow.obj
+         x64\Debug\occview.obj
+         x64\Debug\dia11.obj
+         x64\Debug\dia12.obj
+         x64\Debug\dia12_1.obj
+         x64\Debug\dia12_2.obj
+         x64\Debug\dia13.obj
+         x64\Debug\dia14.obj
+         x64\Debug\dia15.obj
+         x64\Debug\dia2.obj
+         x64\Debug\CenterGroove.obj
+         x64\Debug\SideGroove.obj
+         x64\Debug\dia4.obj
+         x64\Debug\dia4_2.obj
+         x64\Debug\dia5.obj
+         x64\Debug\dia6.obj
+         x64\Debug\dialog.obj
+         x64\Debug\main.obj
+         x64\Debug\qrc_mainwindow.obj
+         x64\Debug\qrc_Resource.obj
+         x64\Debug\moc_dia2.obj
+         x64\Debug\moc_CenterGroove.obj
+         x64\Debug\moc_SideGroove.obj
+         x64\Debug\moc_dia4.obj
+         x64\Debug\moc_dia4_2.obj
+         x64\Debug\moc_dia5.obj
+         x64\Debug\moc_dia6.obj
+         x64\Debug\moc_dia11.obj
+         x64\Debug\moc_dia12.obj
+         x64\Debug\moc_dia12_1.obj
+         x64\Debug\moc_dia12_2.obj
+         x64\Debug\moc_dia13.obj
+         x64\Debug\moc_dia14.obj
+         x64\Debug\moc_dia15.obj
+         x64\Debug\moc_dialog.obj
+         x64\Debug\moc_mainwindow.obj
+         x64\Debug\moc_occview.obj
+         x64\Debug\moc_EC.obj
+         x64\Debug\moc_FirstSuppSprayMix.obj
+         interface.vcxproj -> C:\Users\Administrator\Desktop\interface\x64\Debug\interface.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\interface\interface\interface.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\interface\interface\interface.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:04.52

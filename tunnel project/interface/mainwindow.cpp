@@ -82,7 +82,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
 	ui->setupUi(this);
 	//树形控件设置
-	QTreeWidgetItem *parentItem1 = new QTreeWidgetItem(ui->tr2);
+	/*QTreeWidgetItem *parentItem1 = new QTreeWidgetItem(ui->tr2);
 	parentItem1->setText(0, QString("内轮廓"));
 	QTreeWidgetItem *parentItem2 = new QTreeWidgetItem(ui->tr2);
 	parentItem2->setText(0, QString("沟槽"));
@@ -93,17 +93,43 @@ MainWindow::MainWindow(QWidget *parent) :
 	QTreeWidgetItem *parentItem5 = new QTreeWidgetItem(ui->tr2);
 	parentItem5->setText(0, QString("初支"));
 	QTreeWidgetItem *parentItem6 = new QTreeWidgetItem(ui->tr2);
-	parentItem6->setText(0, QString("防排水"));
+	parentItem6->setText(0, QString("防排水"));*/
+	QTreeWidgetItem *parentItem1 = new QTreeWidgetItem(ui->tr2);
+	parentItem1->setText(0, QString("内轮廓及二衬"));
+	QTreeWidgetItem *parentItem2 = new QTreeWidgetItem(ui->tr2);
+	parentItem2->setText(0, QString("初支"));
+	QTreeWidgetItem *parentItem3 = new QTreeWidgetItem(ui->tr2);
+	parentItem3->setText(0, QString("回填踏步及沟槽"));
+	QTreeWidgetItem *parentItem4 = new QTreeWidgetItem(ui->tr2);
+	parentItem4->setText(0, QString("防排水"));
+	
 
-	QTreeWidgetItem *childItem1 = new QTreeWidgetItem(parentItem2);
+	/*QTreeWidgetItem *childItem1 = new QTreeWidgetItem(parentItem3);
 	childItem1->setText(0, QString("中心沟"));
-	QTreeWidgetItem *childItem2 = new QTreeWidgetItem(parentItem2);
+	QTreeWidgetItem *childItem2 = new QTreeWidgetItem(parentItem3);
 	childItem2->setText(0, QString("侧沟"));
 	QTreeWidgetItem *childItem4_1 = new QTreeWidgetItem(parentItem5);
 	childItem4_1->setText(0, QString("初支喷混"));
 	QTreeWidgetItem *childItem4_2 = new QTreeWidgetItem(parentItem5);
-	childItem4_2->setText(0, QString("型钢钢架"));
+	childItem4_2->setText(0, QString("型钢钢架"));*/
 
+	/*QTreeWidgetItem *childItem1 = new QTreeWidgetItem(parentItem3);
+	childItem1->setText(0, QString("中心沟"));
+	QTreeWidgetItem *childItem2 = new QTreeWidgetItem(parentItem3);
+	childItem2->setText(0, QString("侧沟"));
+	QTreeWidgetItem *childItem4_1 = new QTreeWidgetItem(parentItem2);
+	childItem4_1->setText(0, QString("初支喷混"));
+	QTreeWidgetItem *childItem4_2 = new QTreeWidgetItem(parentItem2);
+	childItem4_2->setText(0, QString("型钢钢架"));*/
+
+	QTreeWidgetItem *childItem3_1 = new QTreeWidgetItem(parentItem3);
+	childItem3_1->setText(0, QString("中心沟"));
+	QTreeWidgetItem *childItem3_2 = new QTreeWidgetItem(parentItem3);
+	childItem3_2->setText(0, QString("侧沟"));
+	QTreeWidgetItem *childItem2_1 = new QTreeWidgetItem(parentItem2);
+	childItem2_1->setText(0, QString("初支喷混"));
+	QTreeWidgetItem *childItem2_2 = new QTreeWidgetItem(parentItem2);
+	childItem2_2->setText(0, QString("型钢钢架"));
 
 	QTreeWidgetItem *parentItem11 = new QTreeWidgetItem(ui->tr1);
 	parentItem11->setText(0, QString("内轮廓"));
@@ -146,17 +172,28 @@ MainWindow::MainWindow(QWidget *parent) :
 	connect(ui->tr1, &QTreeWidget::itemClicked, this, &MainWindow::onTreeWidgetItemClicked1);
 	connect(ui->tr2, &QTreeWidget::itemClicked, this, &MainWindow::onTreeWidgetItemClicked2);
 
+	////连接信号和dia弹窗
+	//connect(this, SIGNAL(par1()), dia_1, SLOT(show()));
+	//connect(this, SIGNAL(par2()), dia_2, SLOT(show()));
+	//connect(this, SIGNAL(par3()), dia_3, SLOT(show()));
+	//connect(this, SIGNAL(par4()), dia_4, SLOT(show()));
+	//connect(this, SIGNAL(par5()), dia_5, SLOT(show()));
+	//connect(this, SIGNAL(par6()), dia_6, SLOT(show()));
+	//connect(this, SIGNAL(par2_1()), CenterGroove_1, SLOT(show()));
+	//connect(this, SIGNAL(par2_2()), SideGroove_1, SLOT(show()));
+	//connect(this, SIGNAL(par4_1()), dia_4_1, SLOT(show()));
+	//connect(this, SIGNAL(par4_2()), dia_4_2, SLOT(show()));
+
 	//连接信号和dia弹窗
-	connect(this, SIGNAL(par1()), dia_1, SLOT(show()));
-	connect(this, SIGNAL(par2()), dia_2, SLOT(show()));
-	connect(this, SIGNAL(par3()), dia_3, SLOT(show()));
-	connect(this, SIGNAL(par4()), dia_4, SLOT(show()));
-	connect(this, SIGNAL(par5()), dia_5, SLOT(show()));
-	connect(this, SIGNAL(par6()), dia_6, SLOT(show()));
-	connect(this, SIGNAL(par2_1()), CenterGroove_1, SLOT(show()));
-	connect(this, SIGNAL(par2_2()), SideGroove_1, SLOT(show()));
-	connect(this, SIGNAL(par4_1()), dia_4_1, SLOT(show()));
-	connect(this, SIGNAL(par4_2()), dia_4_2, SLOT(show()));
+	connect(this, SIGNAL(par1()), dia_3, SLOT(show()));
+	connect(this, SIGNAL(par2()), dia_4, SLOT(show()));
+	connect(this, SIGNAL(par3()), dia_2, SLOT(show()));
+	connect(this, SIGNAL(par4()), dia_5, SLOT(show()));
+	connect(this, SIGNAL(par3_1()), CenterGroove_1, SLOT(show()));
+	connect(this, SIGNAL(par3_2()), SideGroove_1, SLOT(show()));
+	connect(this, SIGNAL(par2_1()), dia_4_1, SLOT(show()));
+	connect(this, SIGNAL(par2_2()), dia_4_2, SLOT(show()));
+
 
 	connect(this, SIGNAL(par11()), dia_11, SLOT(show()));
 	connect(this, SIGNAL(par12()), dia_12, SLOT(show()));
@@ -1600,7 +1637,7 @@ void MainWindow::onTreeWidgetItemClicked1(QTreeWidgetItem *item, int column)
 
 void MainWindow::onTreeWidgetItemClicked2(QTreeWidgetItem *item, int column)
 {
-	if (item && column == 0)
+	/*if (item && column == 0)
 	{
 		QString text = item->text(column);
 		if (text == QString("内轮廓"))
@@ -1642,6 +1679,50 @@ void MainWindow::onTreeWidgetItemClicked2(QTreeWidgetItem *item, int column)
 		if (text == QString("型钢钢架"))
 		{
 			emit par4_2();
+		}
+	}*/
+	if (item && column == 0)
+	{
+		QString text = item->text(column);
+		if (text == QString("内轮廓及二衬"))
+		{
+			emit par1();
+		}
+		if (text == QString("初支"))
+		{
+			emit par2();
+		}
+		if (text == QString("回填踏步及沟槽"))
+		{
+			emit par3();
+		}
+		if (text == QString("防排水"))
+		{
+			emit par4();
+		}
+		if (text == QString("初支"))
+		{
+			emit par5();
+		}
+		if (text == QString("防排水"))
+		{
+			emit par6();
+		}
+		if (text == QString("中心沟"))
+		{
+			emit par3_1();
+		}
+		if (text == QString("侧沟"))
+		{
+			emit par3_2();
+		}
+		if (text == QString("初支喷混"))
+		{
+			emit par2_1();
+		}
+		if (text == QString("型钢钢架"))
+		{
+			emit par2_2();
 		}
 	}
 }

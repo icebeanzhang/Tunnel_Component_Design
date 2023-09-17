@@ -205,7 +205,7 @@ public:
 	explicit MainWindow(QWidget *parent = nullptr);
 	~MainWindow();
 signals:
-	void par1();
+	/*void par1();
 	void par2();
 	void par2_1();
 	void par2_2();
@@ -213,6 +213,23 @@ signals:
 	void par4();
 	void par4_1();
 	void par4_2();
+	void par5();
+	void par6();
+	void par11();
+	void par12();
+	void par12_1();
+	void par12_2();
+	void par13();
+	void par14();
+	void par15();*/
+	void par1();
+	void par2();
+	void par2_1();
+	void par2_2();
+	void par3();
+	void par3_1();
+	void par3_2();
+	void par4();
 	void par5();
 	void par6();
 	void par11();

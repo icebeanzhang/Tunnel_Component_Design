@@ -154,7 +154,7 @@ public:
         __qtreewidgetitem->setText(0, QString::fromUtf8("1"));
         tr2->setHeaderItem(__qtreewidgetitem);
         tr2->setObjectName(QString::fromUtf8("tr2"));
-        tr2->setGeometry(QRect(0, 0, 171, 511));
+        tr2->setGeometry(QRect(0, 0, 201, 511));
         sizePolicy2.setHeightForWidth(tr2->sizePolicy().hasHeightForWidth());
         tr2->setSizePolicy(sizePolicy2);
         QFont font;
@@ -210,7 +210,7 @@ public:
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 1047, 23));
+        menuBar->setGeometry(QRect(0, 0, 1047, 29));
         wenjian = new QMenu(menuBar);
         wenjian->setObjectName(QString::fromUtf8("wenjian"));
         jianmo = new QMenu(menuBar);

@@ -39,9 +39,9 @@ QT_MOC_LITERAL(3, 17, 4), // "par2"
 QT_MOC_LITERAL(4, 22, 6), // "par2_1"
 QT_MOC_LITERAL(5, 29, 6), // "par2_2"
 QT_MOC_LITERAL(6, 36, 4), // "par3"
-QT_MOC_LITERAL(7, 41, 4), // "par4"
-QT_MOC_LITERAL(8, 46, 6), // "par4_1"
-QT_MOC_LITERAL(9, 53, 6), // "par4_2"
+QT_MOC_LITERAL(7, 41, 6), // "par3_1"
+QT_MOC_LITERAL(8, 48, 6), // "par3_2"
+QT_MOC_LITERAL(9, 55, 4), // "par4"
 QT_MOC_LITERAL(10, 60, 4), // "par5"
 QT_MOC_LITERAL(11, 65, 4), // "par6"
 QT_MOC_LITERAL(12, 70, 5), // "par11"
@@ -73,7 +73,7 @@ QT_MOC_LITERAL(37, 404, 10) // "makeErchen"
 
     },
     "MainWindow\0par1\0\0par2\0par2_1\0par2_2\0"
-    "par3\0par4\0par4_1\0par4_2\0par5\0par6\0"
+    "par3\0par3_1\0par3_2\0par4\0par5\0par6\0"
     "par11\0par12\0par12_1\0par12_2\0par13\0"
     "par14\0par15\0onTreeWidgetItemClicked1\0"
     "QTreeWidgetItem*\0item\0column\0"
@@ -176,9 +176,9 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 2: _t->par2_1(); break;
         case 3: _t->par2_2(); break;
         case 4: _t->par3(); break;
-        case 5: _t->par4(); break;
-        case 6: _t->par4_1(); break;
-        case 7: _t->par4_2(); break;
+        case 5: _t->par3_1(); break;
+        case 6: _t->par3_2(); break;
+        case 7: _t->par4(); break;
         case 8: _t->par5(); break;
         case 9: _t->par6(); break;
         case 10: _t->par11(); break;
@@ -239,21 +239,21 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         }
         {
             using _t = void (MainWindow::*)();
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&MainWindow::par4)) {
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&MainWindow::par3_1)) {
                 *result = 5;
                 return;
             }
         }
         {
             using _t = void (MainWindow::*)();
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&MainWindow::par4_1)) {
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&MainWindow::par3_2)) {
                 *result = 6;
                 return;
             }
         }
         {
             using _t = void (MainWindow::*)();
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&MainWindow::par4_2)) {
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&MainWindow::par4)) {
                 *result = 7;
                 return;
             }
@@ -395,19 +395,19 @@ void MainWindow::par3()
 }
 
 // SIGNAL 5
-void MainWindow::par4()
+void MainWindow::par3_1()
 {
     QMetaObject::activate(this, &staticMetaObject, 5, nullptr);
 }
 
 // SIGNAL 6
-void MainWindow::par4_1()
+void MainWindow::par3_2()
 {
     QMetaObject::activate(this, &staticMetaObject, 6, nullptr);
 }
 
 // SIGNAL 7
-void MainWindow::par4_2()
+void MainWindow::par4()
 {
     QMetaObject::activate(this, &staticMetaObject, 7, nullptr);
 }

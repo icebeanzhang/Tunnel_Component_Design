@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SideGroove</class>
+ <widget class="QWidget" name="SideGroove">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>749</width>
+    <height>513</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>侧沟参数</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>450</y>
+     <width>731</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>50</number>
+    </property>
+    <item>
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn2_2_1">
+      <property name="text">
+       <string>确认</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn2_2_2">
+      <property name="text">
+       <string>取消</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>311</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>最左侧盖板距离内轮廓交点的距离（cm）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QTextEdit" name="innercontour_trench_distance"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>侧沟盖板之间的间距（cm）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QTextEdit" name="trenchcover_gap"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>侧沟盖板尺寸X（cm）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QTextEdit" name="trenchcover_Xlength"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>侧沟盖板尺寸Y（cm）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QTextEdit" name="trenchcover_Ylength"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>电力电缆槽尺寸X（cm）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QTextEdit" name="powercable_Xlength"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>电力电缆槽尺寸Y（cm）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QTextEdit" name="powercable_Ylength"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>侧沟尺寸X（cm）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QTextEdit" name="sidegroove_Xlength"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>侧沟尺寸Y（cm）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QTextEdit" name="sidegroove_Ylength"/>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>通信信号电缆槽尺寸X（cm）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QTextEdit" name="communcable_Xlength"/>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>通信信号电缆槽尺寸Y（cm）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QTextEdit" name="communcable_Ylength"/>
+    </item>
+    <item row="12" column="0">
+     <widget class="QLabel" name="label_13">
+      <property name="text">
+       <string>侧沟整体长度（cm）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="1">
+     <widget class="QTextEdit" name="trench_Overlength"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>60</y>
+     <width>391</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/SideGroove.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Resource.qrc"/>
+  <include location="mainwindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>

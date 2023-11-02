@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>CenterGroove.png</file>
+        <file>chuzhi.png</file>
+        <file>SideGroove.png</file>
+        <file>EC.bmp</file>
+        <file>倒切式门洞-2.png</file>
+        <file>铁四院.png</file>
+    </qresource>
+</RCC>
